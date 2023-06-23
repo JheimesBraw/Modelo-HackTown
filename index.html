@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>HackTown</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/blog.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="lg d-flex  pt-2 m-0">
+           <h1>
+            <a href="index.html">
+              <span class="t t-1">H</span><span class="t">a</span><span class="t t-2">c</span><span class="t t-3">k</span><span class="t t-4">T</span><span class="t t-5">o</span><span class="t t-6">w</span><span class="t t-7">n</span>
+            </a>
+          </h1>
+        </div>
+       
+        
+        <button class="navbar-toggler d-lg-none border-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"><i class="bi bi-list text-white"></i></button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
+
+          <div id="navbar" class="navbar">
+            <ul>
+              <li><a class="nav-link scrollto active" href="#hero">HOME</a></li>
+              <li><a class="nav-link scrollto" href="#sobre">SOBRE</a></li>
+              <li><a class="nav-link scrollto " href="#curso">CURSOS</a></li>
+              <li><a class="nav-link scrollto" href="#equipe">EQUIPE</a></li>
+              <li><a class="nav-link scrollto" href="#blog">NOTÍCIAS</a></li>
+              <li><a class="nav-link scrollto" href="#contatos">CONTATOS</a></li>
+            </ul>
+                <button type="button" class="btn btn-outline-dark getstarted scrollto" data-bs-toggle="modal" data-bs-target="#exampleModal">ENTRAR</button>
+          </div>
+
+        </div>
+      </nav>
+    </div>
+  </header>
+    
+
+  <!-- <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-between">
+      <h1 class="logo">
+        <a href="index.html">
+          <span class="t t-1">H</span><span class="t">a</span><span class="t t-2">c</span><span class="t t-3">k</span><span class="t t-4">T</span><span class="t t-5">o</span><span class="t t-6">w</span><span class="t t-7">n</span>
+        </a>
+      </h1>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">HOME</a></li>
+          <li><a class="nav-link scrollto" href="#sobre">SOBRE</a></li>
+          <li><a class="nav-link scrollto " href="#curso">CURSOS</a></li>
+          <li><a class="nav-link scrollto" href="#equipe">EQUIPE</a></li>
+          <li><a class="nav-link scrollto" href="#blog">NOTÍCIAS</a></li>
+          <li><a class="nav-link scrollto" href="#contatos">CONTATOS</a></li>
+          <li>
+            <button type="button" class="btn btn-outline-dark getstarted scrollto" data-bs-toggle="modal" data-bs-target="#exampleModal">ENTRAR</button>
+          </li>
+        </ul>
+        
+      </nav>
+    </div>
+  </header> -->
+  <!-- End Header -->
+
+  <!-- MODAL -->
+
+                                  <!-- LOGIN -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header d-flex justify-content-center">
+          <img src="assets/img/logo/logo2.png" alt="Logo" class="img-fluid w-50">
+        </div>
+
+        <div class="modal-body">
+          
+          <form action="#" method="post">
+
+            <div class="input-group mb-3">
+              <span class="input-group-text"><i class="bi bi-envelope-fill"></i></span>
+              <div class="form-floating">
+                <input type="email" class="form-control" id="floatingInputGroup1" placeholder="Seu Nome">
+                <label for="floatingInputGroup1">E-mail</label>
+              </div>
+            </div>
+
+            <div class="input-group">
+              <span class="input-group-text"><i class="bi bi-unlock-fill"></i></span>
+              <div class="form-floating">
+                <input type="password" class="form-control" id="floatingInputGroup2" placeholder="Seu Nome">
+                <label for="floatingInputGroup2">Senha</label>
+              </div>
+            </div>
+            <div class="modal-link mb-3">
+              <a href="#" >Esqueci minha senha</a>
+            </div>
+            <div class="modal-content">
+              <button type="submit" class="btn btn-primary form-control">Logar</button>
+            </div>
+
+          </form>
+        
+        </div>
+      </div>
+    </div>
+  </div>    
+
+  <!-- MODAL YOUTUBE -->
+  <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content square-modal">
+        <div class="modal-header bg-light">
+          <h2 class="modal-title text-center col-11" id="exampleModalLabel">Conheça a Academia HackTown</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/4U80jAq7X8o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+<!-- ======= END MODAL ======= -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+
+    <div class="container py-3">
+      <div class="row justify-content-between">
+        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
+          <div data-aos="zoom-out d-flex">
+
+            <div class="caption v-middle">
+              <h1>Construa o seu Futuro Junto com a Gente!</h1>
+              <h2 class="cd-headline clip">
+                
+                <span class="blc">Escola de </span>
+                <span class="cd-words-wrapper">
+                  <b class="is-visible">Programacão.</b>
+                  <b>Jogos.</b>
+                  <b>Robótica</b>
+                </span>
+              </h2>
+            </div>
+
+            <div class="text-center text-lg-start">
+              <a href="#about" class="btn-get-started btn btn-outline-dark scrollto" data-bs-toggle="modal" data-bs-target="#myModal" >Conheça a HackTown</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 order-1 order-lg-2 hero-img d-flex justify-content-center align-items-center" data-aos="zoom-out" data-aos-delay="300">
+          <div>
+            <img src="assets/img/logo/logo.png" class="img-fluid animated h-100" alt="Logo da HackTown">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <svg class="hero-waves" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+      </g>
+    </svg>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="sobre" class="about">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-1" data-aos="zoom-in" data-aos-delay="150">
+            <img src="assets/img/img.jpeg" class="img-thumbnail" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-2 content" data-aos="fade-right">
+            <h3>Academia HackTown: Tecnologia Para Todos</h3>
+            <p class="fst-italic">
+              A Academia HackTown é a primeira escola pública de programação em jogos e robótica do Brasil. Ela oferece:
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <strong>Inovação:</strong>Cursos de programação em jogos e robótica.</li>
+              <li><i class="bi bi-check-circle"></i> <strong>Oportunidade:</strong> Para alunos sem acesso à educação tecnológica.</li>
+              <li><i class="bi bi-check-circle"></i> <strong>Produção:</strong> Alunos criam seus próprios programas, jogos e robôs.</li>
+            </ul>
+            <a href="https://hacktown.ifsertao-pe.edu.br/hacktown/public/htselect" class="read-more">Faça Parte</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts d-flex justify-content-center">
+      <div class="counters">
+        <div class="row w-100">
+          <div class="col-12 mb-2 col-md-6 col-lg-3 col-xl-3">
+              <div class="counter-wrapper">
+                  <span class="counter-icon"><i class="bi bi-instagram"></i></span>
+                  <div class="counter-info">
+                      <h2 class="counter" data-count="11000">10000</h2>
+                      <p>Seguidores</p>
+                  </div>
+              </div>
+          </div>
+            <div class="col-12 pb-2 col-md-6 col-lg-3 col-xl-3">
+                <div class="counter-wrapper">
+                    <span class="counter-icon">
+                      <svg width="64" height="64" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17 20h5v-2a3 3 0 0 0-5.356-1.857"></path>
+                        <path d="M7 20h10v-2a4.982 4.982 0 0 0-2.196-4.141A5.002 5.002 0 0 0 7 17.999v2Z"></path>
+                        <path d="M7.356 16.143A3 3 0 0 0 2 18v2h5"></path>
+                        <path d="M20.414 11.414a2 2 0 1 0-2.828-2.828 2 2 0 0 0 2.828 2.828Z"></path>
+                        <path d="M15 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"></path>
+                        <path d="M6.414 11.414a2 2 0 1 0-2.828-2.828 2 2 0 0 0 2.828 2.828Z"></path>
+                      </svg>
+                    </span>
+                    <div class="counter-info">
+                        <h2 class="counter" data-count="200">0</h2>
+                        <p>Alunos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 pb-2 col-md-6 col-lg-3 col-xl-3">
+                <div class="counter-wrapper">
+                    <span class="counter-icon">
+                      <svg width="64" height="64" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                      </svg>
+                    </span>
+                    <div class="counter-info">
+                        <h2 class="counter" data-count="120">0</h2>
+                        <p>Cursos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 pb-2 col-md-6 col-lg-3 col-xl-3">
+                <div class="counter-wrapper">
+                    <span class="counter-icon">
+                      <svg width="64" height="64" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m12 14 9-5-9-5-9 5 9 5Z"></path>
+                        <path d="m12 14 6.16-3.422c.81 2.058 1.04 4.3.665 6.479A11.952 11.952 0 0 0 12 20.055a11.952 11.952 0 0 0-6.824-2.998 12.078 12.078 0 0 1 .665-6.479L12 14Z"></path>
+                        <path d="m12 14 9-5-9-5-9 5 9 5Zm0 0 6.16-3.422c.81 2.058 1.04 4.3.665 6.479A11.952 11.952 0 0 0 12 20.055a11.952 11.952 0 0 0-6.824-2.998 12.078 12.078 0 0 1 .665-6.479L12 14Zm-4 6v-7.5l4-2.222"></path>
+                      </svg>
+                    </span>
+                    <div class="counter-info">
+                        <h2 class="counter" data-count="20">0</h2>
+                        <p>Equipe</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Counts Section -->
+
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="curso" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>CONHEÇA NOSSOS PRINCIPAIS CURSOS</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">ALL</li>
+              <li data-filter=".filter-app">KIDS</li>
+              <li data-filter=".filter-card">TEENS</li>
+              <!-- <li data-filter=".filter-web">Web</li> -->
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/cursos/kids0.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>KIDS 0</h4>
+                <p>Programacão em Jogos e Robótica</p>
+              </div>
+              <div class="portfolio-links">
+                <div class="lin">
+                  <a class="btn btn-dark" href="https://hacktown.ifsertao-pe.edu.br/public/cursos">Conhecer</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/cursos/kids1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>KIDS 1</h4>
+                <p>Programacão em Jogos e Robótica</p>
+              </div>
+              <div class="portfolio-links">
+                <div class="lin">
+                  <a href="https://hacktown.ifsertao-pe.edu.br/public/cursos" class="btn btn-dark">Conhecer</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/cursos/kids2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>KIDS 2</h4>
+                <p>Programacão em Jogos e Robótica</p>
+              </div>
+              <div class="portfolio-links">
+                <div class="lin">
+                  <a href="https://hacktown.ifsertao-pe.edu.br/public/cursos" class="btn btn-dark">Conhecer</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/cursos/teens-junior.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>TEENS JUNIOR</h4>
+                <p>Programacão em Jogos e Robótica</p>
+              </div>
+              <div class="portfolio-links">
+                <div class="lin">
+                  <a href="https://hacktown.ifsertao-pe.edu.br/public/cursos" class="btn btn-dark">Conhecer</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/cursos/teens.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>TEENS</h4>
+                <p>Programacão em Jogos e Robótica</p>
+              </div>
+              <div class="portfolio-links">
+                <div class="lin">
+                  <a href="https://hacktown.ifsertao-pe.edu.br/public/cursos" class="btn btn-dark">Conhecer</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/cursos/Teens22.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>ROBÓTICA</h4>
+                <p>Robótica e Arduíno</p>
+              </div>
+              <div class="portfolio-links">
+                <div class="lin">
+                  <a href="https://hacktown.ifsertao-pe.edu.br/public/cursos" class="btn btn-dark">Conhecer</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- End Portfolio Section -->
+
+    <!-- Team -->
+    <div class="container equipe mb-5" id="equipe">
+      <div class="section-title">
+        <h2>Nossa Equipe</h2>
+      </div>
+      <div class="row pt-2">
+        <div class="col">
+          <div class="card radius-15">
+            <div class="card-body text-center">
+              <div class="team-card p-4 border radius-15">
+                <img src="https://bootdey.com/img/Content/avatar/avatar7.png" width="110" height="110" class="rounded-circle shadow" alt="">
+                <h5 class="mb-0 mt-5">Fábio Souza </h5>
+                <p class="mb-3">Coordenador Geral</p>
+                <div class="d-grid"> <a href="https://www.escavador.com/sobre/7037042/fabio-cristiano-souza-oliveira" class="btn btn-outline-dark radius-15" target="_blank">Conhecer</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card radius-15">
+            <div class="card-body text-center">
+              <div class="team-card p-4 border radius-15">
+                <img src="https://bootdey.com/img/Content/avatar/avatar3.png" width="110" height="110" class="rounded-circle shadow" alt="">
+                <h5 class="mb-0 mt-5">Danielle Juliana</h5>
+                <p class="mb-3">Coord. Pedagógica</p>
+                <div class="d-grid"> <a href="https://www.escavador.com/sobre/4285469/danielle-juliana-silva-martins" class="btn btn-outline-dark radius-15" target="_blank">Conhecer</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card radius-15">
+            <div class="card-body text-center">
+              <div class="team-card p-4 border radius-15">
+                <img src="https://bootdey.com/img/Content/avatar/avatar8.png" width="110" height="110" class="rounded-circle shadow" alt="">
+                <h5 class="mb-0 mt-5">Josilene Almeida</h5>
+                <p class="mb-3">Coordenador Local</p>
+                <div class="d-grid"> <a href="https://www.escavador.com/sobre/8692429/josilene-almeida-brito" class="btn btn-outline-dark radius-15" target="_blank">Conhecer</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card radius-15">
+            <div class="card-body text-center">
+              <div class="team-card p-4 border radius-15">
+                <img src="https://bootdey.com/img/Content/avatar/avatar5.png" width="110" height="110" class="rounded-circle shadow" alt="">
+                <h5 class="mb-0 mt-5">Eduardo Ferreira</h5>
+                <p class="mb-3">Instrutor</p>
+                <div class="d-grid"> <a href="https://www.instagram.com/tn.eduardo/" class="btn btn-outline-dark radius-15" target="_blank">Conhecer</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!------- BLOG ------>
+       
+      <div class="container-fluid" id="blog">
+        <div class="section-title text-white">
+          <h2>PRINCIPAIS NOTÍCIAS</h2>
+        </div>
+
+        <div class="blog-slider">
+          <div class="blog-slider__wrp swiper-wrapper">
+              <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                    <img src="assets/img/img6.png"/>
+                  </div>
+                  <div class="blog-slider__content">
+                    <span class="blog-slider__code">27 Abril 2023</span>
+                      <div class="blog-slider__title">
+                          <p>Processo Seletivo 2023</p>
+                      </div>
+                      <div class="blog-slider__text">
+                          <p>
+                            Foi publicado, nesta sexta-feira (26/05), o resultado preliminar do edital 07/2023 relativo a seleção para cursos da Academia HackTown, do campus Petrolina do IFSertãoPE.
+                            Os cursos, que são inteiramente gratuitos, e as s aulas estão previstas pra iniciar em junho. A previsão de término é para o mês de novembro de 2023.
+                          </p>
+                      </div>
+                      <a class="btn blog-slider__button" href="#">Leia Mais</a>
+                  </div>
+              </div>
+              <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                    <img src="assets/img/img3.png" />
+                  </div>
+                  <div class="blog-slider__content">
+                    <span class="blog-slider__code">14 Outubro 2022</span>
+                      <div class="blog-slider__title">
+                          <p>Caravana da Alegria 2022</p>
+                      </div>
+                      <div class="blog-slider__text">
+                          <p>
+                            Nesse mês de outubro em comemoração ao dia das crianças, a Academia HackTown juntamente com o IFSertãoPE Campus Petrolina estão promovendo uma a "Caravana da Alegria". 
+                            O principal objetivo é aproximar crianças e jovens de instituições sociais da comunidade de Petrolina num contexto tecnológico, unindo aprendizado e diversão. Dessa forma, as principais oficinas irão apresentar protótipos de robótica, games e realidade 3D.
+                          </p>
+                      </div>
+                      <a class="blog-slider__button" href="#">Leia Mais</a>
+                  </div>
+              </div>
+              <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                    <img src="assets/img/img5.jpeg"/>
+                  </div>
+                  <div class="blog-slider__content">
+                    <span class="blog-slider__code">19 Novembro 2019</span>
+                      <div class="blog-slider__title">
+                          <p>Faça parte dessa aventura 🤖📚🎮</p>
+                      </div>
+                      <div class="blog-slider__text">
+                          <p>
+                            A IV Mostra de Jogos e Robótica da Academia HackTown tem como objetivo apresentar as atividades realizadas no projeto em 2019 para a comunidade.
+                            Dessa forma, diferentes atividades estarão abertas para visitação da comunidade nos turnos matutino e vespertino no dia 06/12 no IF Sertão-PE, campus Petrolina.
+                          </p>
+                      </div><a class="blog-slider__button" href="#">Leia Mais</a>
+                  </div>
+              </div>
+          </div>
+          <div class="blog-slider__pagination"></div>
+        </div>
+      </div>
+    
+    <!-----  END BLOG ------->
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Galeria</h2>
+        </div>
+
+        <div class="row g-0" data-aos="fade-left">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+              <a href="assets/img/1.jpg" class="gallery-lightbox">
+                <img src="assets/img/1.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
+              <a href="assets/img/2.jpg" class="gallery-lightbox">
+                <img src="assets/img/2.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+              <a href="assets/img/3.jpg" class="gallery-lightbox">
+                <img src="assets/img/3.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
+              <a href="assets/img/4.jpg" class="gallery-lightbox">
+                <img src="assets/img/4.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+              <a href="assets/img/5.jpg" class="gallery-lightbox">
+                <img src="assets/img/5.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
+              <a href="assets/img/6.jpg" class="gallery-lightbox">
+                <img src="assets/img/6.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+              <a href="assets/img/1.jpg" class="gallery-lightbox">
+                <img src="assets/img/1.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="450">
+              <a href="assets/img/2.jpg" class="gallery-lightbox">
+                <img src="assets/img/2.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Gallery Section -->
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>PERGUNTAS FREQUENTES</h2>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up" data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-help-circle icon-help"></i> 
+              <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Quem pode se inscrever nos cursos da Academia HackTown?
+                <i class="bx bx-chevron-down icon-show"></i>
+                <i class="bx bx-chevron-up icon-close"></i>
+              </a>
+              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                <p>
+                  Os cursos da Academia HackTown são voltados para crianças e adolescentes, especialmente aqueles sem acesso à educação tecnológica.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i> 
+              <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Quanto custam os cursos da Academia HackTown? 
+                <i class="bx bx-chevron-down icon-show"></i>
+                <i class="bx bx-chevron-up icon-close"></i>
+              </a>
+              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Como a Academia HackTown é uma escola pública, seus cursos são gratuitos para os alunos.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-help-circle icon-help"></i> 
+              <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Os cursos da Academia HackTown são presenciais ou online? 
+                <i class="bx bx-chevron-down icon-show"></i>
+                <i class="bx bx-chevron-up icon-close"></i>
+              </a>
+              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Isso pode variar de acordo com o curso e a disponibilidade. É recomendável verificar as informações sobre cada curso no site oficial ou entrando em contato com a empresa.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> 
+              <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">A Academia HackTown oferece certificado de conclusão dos cursos? 
+                <i class="bx bx-chevron-down icon-show"></i>
+                <i class="bx bx-chevron-up icon-close"></i>
+              </a>
+              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Sim! A Academia HackTown oferece certificado de conclusão para os alunos que concluírem seus cursos com sucesso.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="500">
+              <i class="bx bx-help-circle icon-help"></i> 
+              <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Como posso me inscrever nos cursos da Academia HackTown? 
+                <i class="bx bx-chevron-down icon-show"></i>
+                <i class="bx bx-chevron-up icon-close"></i>
+              </a>
+              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  As informações sobre como se inscrever nos cursos da Academia HackTown podem ser encontradas no site oficial ou entrando em contato com a empresa.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+    
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contatos" class="contact section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contatos</h2>
+        </div>
+
+        <div class="row">
+          
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bi-instagram" style="color: #c13584"></i>
+              <h3>Instagram</h3>
+              <a href="https://www.instagram.com/academiahacktown/" class="btn-outline-dark" target="_blank"><p>@AcademiaHackTown</p></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bi-whatsapp text-success"></i>
+              <h3>whatsapp</h3>
+              <a href="#" class="btn-outline-dark" target="_blank">+55 (87) 98148-8970</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bi-facebook"></i>
+              <h3>Facebook</h3>
+              <a href="https://www.facebook.com/AcademiaHackTown/" class="btn-outline-dark" target="_blank"><p>Academia HackTown</p></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bi-youtube text-danger"></i>
+              <h3>YouTube</h3>
+              <a href="https://www.youtube.com/@AcademiaHackTown" class="btn-outline-dark" target="_blank"><p>Academia HackTown</p></a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6 ">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15746.688061220562!2d-40.5395957!3d-9.3622638!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7737a11aefde6e1%3A0x5617c669843983b3!2sIFSert%C3%A3oPE%20Campus%20Petrolina!5e0!3m2!1spt-BR!2sbr!4v1685653828652!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Nome" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Mensagem" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Enviar Mensagem</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <img src="assets/img/logo/logo.png" alt="logo" class="img-fluid w-75 pb-3">
+            <p>
+              R. Maria Luzia de Araújo Gomes Cabral, 791 - João de Deus<br>56316-686, <strong>Petrolina - PE</strong><br><br>
+              <strong>Phone:</strong> +55 (87) 98148-8970<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Sobre</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Cursos</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Equipe</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Blog</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Nossos Serviços</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Kids 0</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Kids 1</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Kids 2</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Teens</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Teens-Junior</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Assine Nossa Newsletter</h4>
+            <p>Deixe seu e-mail e fique por dentro das Novidades dos cursos que a Academia HackTown tem a oferecer!!!</p>
+            <form action="#" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscrever">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="copyright-wrap d-md-flex py-4">
+        <div class="me-md-auto text-center text-md-start">
+          <div class="copyright">
+            &copy; Copyright <a href="https://www.instagram.com/academiahacktown/" class="text-white link-warning" target="_blank"><strong><span>Academia HackTown</span></strong></a>.
+          </div>
+          <div class="credits">
+            <p>Todos os Direitos Reservados</p>
+          </div>
+        </div>
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+          <a href="https://www.instagram.com/academiahacktown/" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="whatsapp"><i class="bx bxl-whatsapp" target="_blank"></i></a>
+          <a href="https://www.facebook.com/AcademiaHackTown/" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader">
+  </div>
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+  <script src="assets/js/jquery.min.js"></script>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/Animated-Type-Heading-type-headline.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
