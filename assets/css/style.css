@@ -251,7 +251,10 @@ h6 {
     margin-top: 10px;
   }
   #header{
-    background: linear-gradient(4deg, rgb(47, 10, 89) 0%, rgba(16,53,142,1) 35%, rgba(132,0,255,1) 100%);
+    background: var(--corPrinc);
+  }
+  .logo-princ{
+    margin-top: 5vh;
   }
 }
 
